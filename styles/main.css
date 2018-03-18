@@ -16,5 +16,7 @@ html {
 }
 
 .logo {
-    vertical-align: -webkit-baseline-middle;
+    display: block;
+    margin: auto;
+    justify-content: baseline;
 }
