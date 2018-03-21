@@ -1,11 +1,9 @@
-/* ul li {
-    list-style-type: none;
-} */
-
-.news__list li {
+.li-no-style{
     list-style-type: none;
 }
 
-.features__list+li {
-    list-style-type: none;
+.news__logo img{
+    height: 160px;
+    width: 160px;
 }
+
