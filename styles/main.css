@@ -45,8 +45,9 @@ body {
     text-transform: uppercase;
     color: #fff;
     margin-right: 61px;
-    margin-top: 21px;
-    width: 198px;
+    /* margin-top: 21px; */
+    /* width: 198px; */
+    display: inline;
 }
 
 .header__contacts {
