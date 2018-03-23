@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GothamPro-Italic';
+    src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -58,8 +65,8 @@ body {
     cursor: pointer;
 }
 
-.header__dropdown:hover{
-    color:#7378a8;
+.header__dropdown:hover {
+    color: #7378a8;
 }
 
 .header__logo-picture {
@@ -73,65 +80,174 @@ body {
     margin-top: 17px;
 }
 
-.header_timelist{
+.header_timelist {
     display: none;
 }
 
-.navigation{
+.navigation {
     margin-top: 62px;
     margin-left: 20px;
 }
 
-.navigation__list{
+.navigation__list {
     padding: 0;
 }
 
-.navigation__item a{
-    color:#222222;
+.navigation__item a {
+    color: #222222;
     font-family: 'GothamPro-Bold';
     font-size: 12px;
     text-transform: uppercase;
 }
 
-.navigation__link{
-    text-decoration: none;    
+.navigation__link {
+    text-decoration: none;
 }
 
-.navigation__text{
+.navigation__text {
     font-family: "GothamPro-Bold";
     font-size: 12px;
     font-style: bold;
     text-transform: uppercase;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
-.navigation__logo-picture{
+.navigation__logo-picture {
     padding-right: 16px;
 }
 
-.navigation__item :hover{
-    color:#ef3c8b;
+.navigation__item :hover {
+    color: #ef3c8b;
     text-decoration: underline;
 }
 
-
-.features__title{
+.features__title {
     color: #221f1f;
     font-family: "GothamPro-Bold";
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 49px;
 }
 
-.feature__description{
+.features__current-title {
     color: #212121;
     font-family: "GothamPro-Bold";
     font-size: 11px;
-    font-weight: 700;   
+    text-transform: uppercase;
 }
 
+.feature__description {
+    font-family: "GothamPro-Light";
+    font-style: regular;
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feature__current-list {
+    font-family: "GothamPro-Light";
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feature__current-list li {
+    list-style-type: disc;
+}
+
+.news__title {
+    color: '#221f1f';
+    font-family: "GothamPro-Bold";
+    font-size: '49';
+    font-weight: '700';
+}
+
+.news__logo-picture {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.news__date {
+    color: #b7b7b7;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.news__current_title {
+    color: #221f1f;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.news__text {
+    color: #221f1f;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.pagination {
+    font-family: 'Roboto';
+}
+
+.pagination_current {
+    font-weight: 300;
+    font-size: 14px;
+    display: inline;
+}
+
+.pagination__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+}
+
+.footer__list {
+    display: inline;
+}
+
+/* .footer__list li{
+    float: left;
+} */
+
+.pagination__list li {
+    float: left;
+}
+
+.pagination__item {
+    font-size: 14px;
+    font-weight: 700;
+}
 
 .footer__about {
-    margin-right: 19px;
+    font-family: "GothamPro-Light";
+    color: #fff;
+    font-size: 14px;
+    padding-left: 19px;
+    padding-top: 14px;
+    display: inline;
+}
+
+.footer__about a {
+    color: #fff;
+}
+
+.footer__social {
     display: block;
+    float: right;
+}
+
+.footer__title {
+    color: #ffffff;
+    font-family: "GothamPro-Bold";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    height: 150px;
+}
+
+.footer__social_link{
+    background-color: #d4d4d8;
 }
