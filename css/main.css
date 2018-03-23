@@ -55,6 +55,11 @@ body {
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.header__dropdown:hover{
+    color:#7378a8;
 }
 
 .header__logo-picture {
@@ -64,14 +69,67 @@ body {
 
 .header__contacts {
     float: right;
-    margin-right: 21px;
-    margin-top: 21px;
-    /* height: 100%; */
+    margin-right: 17px;
+    margin-top: 17px;
 }
 
-.features {
-    margin-right: 221px;
+.header_timelist{
+    display: none;
 }
+
+.navigation{
+    margin-top: 62px;
+    margin-left: 20px;
+}
+
+.navigation__list{
+    padding: 0;
+}
+
+.navigation__item a{
+    color:#222222;
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navigation__link{
+    text-decoration: none;    
+}
+
+.navigation__text{
+    font-family: "GothamPro-Bold";
+    font-size: 12px;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
+
+.navigation__logo-picture{
+    padding-right: 16px;
+}
+
+.navigation__item :hover{
+    color:#ef3c8b;
+    text-decoration: underline;
+}
+
+
+.features__title{
+    color: #221f1f;
+    font-family: "GothamPro-Bold";
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.feature__description{
+    color: #212121;
+    font-family: "GothamPro-Bold";
+    font-size: 11px;
+    font-weight: 700;   
+}
+
 
 .footer__about {
     margin-right: 19px;
