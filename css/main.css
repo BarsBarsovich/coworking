@@ -85,18 +85,24 @@ body {
     display: none;
 }
 
+.banner {
+    background: #27273e;
+}
+
 .banner__logo-picture {
     display: block;
     margin: auto;
 }
 
-.navigation {
-    margin-top: 62px;
-    margin-left: 20px;
+.aside {
+    display: inline-block;
+    margin-left: 105px;
+    margin-top: 49px;
+    vertical-align: top;
 }
 
-.navigation__list {
-    padding: 0;
+.navigation__item {
+    padding-bottom: 29px;
 }
 
 .navigation__item a {
@@ -125,6 +131,15 @@ body {
 .navigation__item :hover {
     color: #ef3c8b;
     text-decoration: underline;
+}
+
+.main {
+    display: inline-block;
+}
+
+.features {
+    padding-top: 22px;
+    padding-left: 76px;
 }
 
 .features__title {
@@ -253,6 +268,12 @@ body {
 
 .footer {
     height: 150px;
+    width: 100%;
+}
+
+.footer__container {
+    width: 1100px;
+    margin: auto;
 }
 
 .footer__social_link {
