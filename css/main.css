@@ -1,343 +1,53 @@
-@font-face {
-    font-family: 'GothamPro-Light';
-    src: url('../fonts/GothamPro-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GothamPro-Bold';
-    src: url('../fonts/GothamPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GothamPro-Italic';
-    src: url('../fonts/GothamPro-LightItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    margin: 0;
-}
-
-.li-no-style {
+ul {
     list-style-type: none;
 }
 
-.container {
+.wrapper {
     width: 100%;
 }
 
-.news__logo img {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
+.header {
+    background: #27273e;
+    min-height: 77px;
 }
 
-.header,
-.footer {
-    background-color: #27273e;
-    height: 77px;
-    width: 100%
-}
-
-.header__content {
-    width: 1100px;
+.header__container {
     margin: auto;
+    width: 1100px;
 }
 
-.header__phone {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'GothamPro-Bold';
-    font-size: 21px;
+.header__column {
+    display: inline;
+    float: left;
+    width: 50%;
+    vertical-align: middle;
 }
 
-.header__dropdown {
+.header__column-right {
     text-align: right;
-    color: #b02167;
-    text-decoration: underline;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    cursor: pointer;
+    color: #fff;
 }
 
-.header__dropdown:hover {
-    color: #7378a8;
+.header__logo {
+    padding-top: 8px;
+    padding-left: 12px;
 }
 
-.header__logo-picture {
-    margin-left: 19px;
-    margin-top: 12px;
-}
-
-.header__contacts {
-    float: right;
-    margin-right: 17px;
-    margin-top: 17px;
-}
-
-.header_timelist {
-    display: none;
+.header__column-right {
+    padding-right: 21px;
+    display: inline;
+    text-align: right;
 }
 
 .banner {
-    background: #27273e;
-}
-
-.banner__logo-picture {
-    display: block;
     margin: auto;
-}
-
-.aside {
-    display: inline-block;
-    margin-left: 105px;
-    margin-top: 49px;
-    vertical-align: top;
-}
-
-.navigation__item {
-    padding-bottom: 29px;
-}
-
-.navigation__item a {
-    color: #222222;
-    font-family: 'GothamPro-Bold';
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-.navigation__link {
-    text-decoration: none;
-}
-
-.navigation__text {
-    font-family: "GothamPro-Bold";
-    font-size: 12px;
-    font-style: bold;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #ef3c8b;
-}
-
-.navigation__text span {
-    text-align: center;
-}
-
-.navigation__logo-picture {
-    padding-right: 16px;
-}
-
-.navigation__logo-picture :hover {
-    transform: scale(2);
-}
-
-.navigation__link :hover {
-    color: #000;
-    text-decoration: underline;
-}
-
-navigation__link img :hover {
-    transform: scale(2);
-}
-
-.main {
-    display: inline-block;
-}
-
-.features {
-    padding-top: 22px;
-    padding-left: 76px;
-}
-
-.features__list {
-    margin-left: 52px;
-}
-
-.features__title {
-    color: #221f1f;
-    font-family: "GothamPro-Bold";
-    font-size: 49px;
-}
-
-.feature__logo-picture {
-    padding-top: 22px;
-}
-
-.feature__item {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    /* margin-top: 22px; */
-    /* margin-left: 70px; */
-}
-
-.features__current-title {
-    color: #212121;
-    font-family: "GothamPro-Bold";
-    font-size: 11px;
-    text-transform: uppercase;
-}
-
-.feature__description {
-    font-family: "GothamPro-Light";
-    font-style: regular;
-    color: #221f1f;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.feature__current-list {
-    font-family: "GothamPro-Light";
-    color: #221f1f;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.feature__current-list li {
-    list-style-type: disc;
-}
-
-.news__title {
-    color: '#221f1f';
-    font-family: "GothamPro-Bold";
-    font-size: '49';
-    font-weight: '700';
-}
-
-.news__logo-picture {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-}
-
-.news__date {
-    color: #b7b7b7;
-    font-family: "Roboto";
-    font-weight: 300;
-}
-
-.news__current_title {
-    color: #221f1f;
-    font-family: "Roboto";
-    font-weight: 700;
-}
-
-.news__text {
-    color: #221f1f;
-    font-family: "Roboto";
-    font-weight: 300;
-}
-
-.pagination {
-    font-family: 'Roboto';
-}
-
-.pagination_current {
-    font-weight: 300;
-    font-size: 14px;
-    display: inline;
-}
-
-.pagination__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline;
-}
-
-.footer__list {
-    display: inline;
-}
-
-
-/* .footer__list li{
-    float: left;
-} */
-
-.pagination__list li {
-    float: left;
-}
-
-.pagination__item {
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.footer__about {
-    font-family: "GothamPro-Light";
-    color: #fff;
-    font-size: 14px;
-    /* padding-left: 19px;
-    padding-top: 14px; */
-    display: inline;
-}
-
-.footer__about a {
-    color: #fff;
-}
-
-.footer__social {
-    display: block;
-    float: right;
-    margin-top: 19px;
-}
-
-.footer__title {
-    color: #ffffff;
-    font-family: "GothamPro-Bold";
-    font-size: 14px;
-    font-weight: 700;
-    padding-right: 40px;
-    padding-top: 4px;
-    display: inline-block;
-}
-
-.footer {
-    height: 150px;
     width: 100%;
+    background: #27273e;
+    margin-bottom: 50px;
 }
 
-.footer__container {
-    width: 1100px;
-    margin: auto;
-}
-
-.footer__about-container {
-    display: inline-block;
-    margin-top: 14px;
-    margin-right: 19px;
-}
-
-.footer__social_link {
-    background-color: #d4d4d8;
-}
-
-.footer__list {
-    padding-top: 8px;
-    display: inline-block;
-    padding-left: 0;
-    margin: 0px;
-}
-
-.footer__list li {
-    display: inline-block;
-}
-
-.footer__logo {
-    display: inline-block;
-    margin-left: 190px;
-    margin-top: 20px;
-}
-
-.footer__item :hover {
-    transform: scale(2);
-    /* filter: blur(1); */
-    /* background: brown; */
+.nav__list li :after {
+    content: "";
+    background-image: url("../img/aside/notactive/triangle.png") left no-repeat;
+    padding-right: 8px;
 }
