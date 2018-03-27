@@ -1,0 +1,18 @@
+.breadcrumbs {
+    display: inline-block;
+    margin-top: 44px;
+    margin-left: 75px;
+}
+
+.breadcrumbs__list {
+    display: inline-block;
+}
+
+.breadcrumbs__item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.comments__list {
+    list-style-type: none;
+}
