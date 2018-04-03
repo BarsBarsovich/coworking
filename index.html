@@ -24,8 +24,14 @@
                 </div>
                 <div class="header__column header__column-right">
                     <div class="contacts">
-                        <a href="tel:+788000039210">8 (800) 00-392-10</a>
-                        <div class="dropdown">Всегда на связи</div>
+                        <a href="tel:+788000039210" class="header__phone">8 (800) 00-392-10</a>
+                        <div class="header__dropdown">Всегда на связи</div>
+                        <div class="dropdown__hidden">
+                            <div class="dropdown__content">
+                                <span class="dropdown__workdays">пн-вс: 09:00-20:00</span><br>
+                                <span class="dropdown__dinner"> обед: 14:00-14:30</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -52,7 +58,7 @@
                 </div>
                 <div class="maincontent__content">
                     <div class="features">
-                        <h1>Особенности</h1>
+                        <h1 class="feature__caption">Особенности</h1>
                         <div class="features__content">
                             <div class="features__item">
                                 <img src="/img/features/flower.png" alt="" class="feature__picture">
@@ -68,9 +74,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="features__item">
+                            <div class="features__item feature__desc-midlle-padding">
                                 <img src="/img/features/star_f.png" alt="" class="feature__picture">
-                                <div class="feature__desc">
+                                <div class="feature__desc ">
                                     <p class="feature__title">премиум-класс</p>
                                     <div class="feature__details">
                                         <p>Для любителей <br> хороших впечатлений</p>
@@ -82,7 +88,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="features__item">
+                            <div class="features__item feature__desc-big-padding">
                                 <img src="/img/features/pallete.png" alt="" class="feature__picture">
                                 <div class="feature__desc">
                                     <p class="feature__title">лакшери-стулья</p>
@@ -99,60 +105,134 @@
                         </div>
                     </div>
                     <div class="news">
-                        <h1 class="news__title">Последние новости</h1>
-                        <ul class="news__list">
-                            <li class="news__item">
-                                <div class="news__logo">
-                                    <img src="/img/news/fire.png" alt="" class="news__logo-picture">
-                                </div>
-                                <div class="news__content">
-                                    <div class="news_date">
-                                        12.10.2016
+                        <span class="news_caption">Последние новости</span>
+                        <div class="news__container">
+                            <ul class="news__list">
+                                <li class="news__item">
+                                    <div class="news__logo">
+                                        <img src="/img/news/fire.png" alt="" class="news__logo-picture">
                                     </div>
-                                    <h3 class="news__title">Черная дыра скидок!</h3>
-                                    <p class="news__text">
-                                        Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных
-                                        вещей.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <div class="news__logo">
-                                    <img src="/img/news/fan.png" alt="" class="news__logo-picture">
-                                </div>
-                                <div class="news__content">
-                                    <div class="news_date">
-                                        01.02.2016
+                                    <div class="news__content">
+                                        <div class="news__date">
+                                            12.10.2016
+                                        </div>
+                                        <h3 class="news__title">Черная дыра скидок!</h3>
+                                        <p class="news__text">
+                                            Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных
+                                            вещей.
+                                        </p>
                                     </div>
-                                    <h3 class="news__title">Заражай друзей, получай призы!</h3>
-                                    <p class="news__text">
-                                        Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="news__item">
-                                <div class="news__logo">
-                                    <img src="/img/news/chair.png" alt="" class="news__logo-picture">
-                                </div>
-                                <div class="news__content">
-                                    <div class="news_date">
-                                        22.12.2015
+                                </li>
+                                <li class="news__item">
+                                    <div class="news__logo">
+                                        <img src="/img/news/fan.png" alt="" class="news__logo-picture">
                                     </div>
-                                    <h3 class="news__title">Новое рабочее место для бизнесменов.</h3>
-                                    <p class="news__text">
-                                        Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-
+                                    <div class="news__content">
+                                        <div class="news__date">
+                                            01.02.2016
+                                        </div>
+                                        <h3 class="news__title">Заражай друзей, получай призы!</h3>
+                                        <p class="news__text">
+                                            Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="news__item">
+                                    <div class="news__logo">
+                                        <img src="/img/news/chair.png" alt="" class="news__logo-picture">
+                                    </div>
+                                    <div class="news__content">
+                                        <div class="news__date">
+                                            22.12.2015
+                                        </div>
+                                        <h3 class="news__title">Новое рабочее место для бизнесменов.</h3>
+                                        <p class="news__text">
+                                            Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pagination">
+                            <div class="total__pages">
+                                Страница 1 из 7
+                            </div>
+                            <div class="pagination__pages">
+                                <ul class="pagination__list">
+                                    <li class="pagination__item pagination__item-border">
+                                        <a href="#" class="pagination__link">
+                                            <img src="/img/pagination/left-arrow.png" alt="" class="pagination__arrow">
+                                        </a>
+                                    </li>
+                                    <li class="pagination__item ">
+                                        <a href="#" class="pagination__link pagination__link-first">1</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">2</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">3</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">4</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">5</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">6</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">7</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">8</a>
+                                    </li>
+                                    <li class="pagination__item pagination__item-border">
+                                        <a href="#" class="pagination__link">
+                                            <img src="/img/pagination/right-arrow.png" alt="" class="pagination__arrow">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="container">
-                fdsfdsf
+                <p class="footer__about">
+                    Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <a href="https://loftschool.com">LoftSchool</a>. <br> Автор работы: <a href="https://github.com/BarsBarsovich">Борис Дрябин</a>
+                </p>
+                <div class="footer__logo">
+                    <img src="/img/logo.png" alt="" class="footer__logo-picture">
+                </div>
+                <div class="footer__social">
+                    <p class="footer__title">Наши социальные сети</p>
+                    <ul class="footer__social-icons li-no-style">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link-vk">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link-fb">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link-google">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link-tw">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link-mail">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
