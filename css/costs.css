@@ -1,0 +1,86 @@
+.maincontent__breadcrumbs{
+    margin-top: 4px;
+}
+
+.empty{
+    margin-left: -5px;
+}
+
+.costs__container
+{ margin-top: 29px;
+margin-left: -42px;
+}
+
+
+.costs__title{
+    font-family: "GothamPro-Bold";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    padding-top: 21px;
+    padding-left: 10px;
+}
+
+.costs__desc{
+    margin-left: 3px;
+    padding-top: 12px;
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.costs__list{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.costs__item{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+}
+
+.costs__item-thirdblock{
+    margin-left: 48px;
+}
+
+
+.costs__image-margin{
+    margin-left: 49px;
+}
+
+.costs__title-margin{
+    margin-left: 50px;
+}
+
+.costs__desc-align{
+    margin-left: 47px;
+    margin-top: -5px;   
+    width: 106%; 
+}
+
+.costs__image-picture{
+    height: 153px;
+    width: 250px;
+}
+
+.item__desc{
+    display: inline-block;
+    width: 100%;
+}
+
+.partners__list{
+    display: inline-block;
+}
+
+.list__item{
+    display: inline-block;
+    width: 30%;
+}
