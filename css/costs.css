@@ -1,0 +1,159 @@
+.maincontent__breadcrumbs{
+    margin-top: 4px;
+}
+
+.empty{
+    margin-left: -5px;
+}
+
+.costs__container
+{ margin-top: 29px;
+margin-left: -42px;
+}
+
+
+.costs__title{
+    font-family: "GothamPro-Bold";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    padding-top: 21px;
+    padding-left: 10px;
+}
+
+.costs__desc{
+    margin-left: 3px;
+    padding-top: 12px;
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.costs__list{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.costs__item{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+}
+
+.costs__item-thirdblock{
+    margin-left: 48px;
+}
+
+
+.costs__image-margin{
+    margin-left: 49px;
+}
+
+.costs__image-margin-allin{
+    margin-left: 99px;
+    margin-top: 44px;    
+}
+
+.costs__title-margin-allin{
+    margin-left: 102px;
+    margin-top: 2px;
+}
+
+.costs__title-margin{
+    margin-left: 50px;
+}
+
+.costs__desc-align-allin{
+    margin-left: 101px;
+    width: 100%;
+}
+
+
+.costs__item-second-row{
+    margin-top: 16px;
+    margin-left: -49px;
+}
+
+.costs__desc-align{
+    margin-left: 47px;
+    margin-top: -5px;   
+    width: 106%; 
+}
+
+.costs__image-picture{
+    height: 153px;
+    width: 250px;
+}
+
+.costs__title-margint{
+    margin-left: 51px;
+    margin-top: 2px;    
+}
+
+.costs__desc-second-row{
+    margin-left: 62px;
+    margin-top: -5px;   
+    width: 97%; 
+}
+
+.costs__item-talking{
+    margin-left: 98px;
+    margin-top: 15px;    
+}
+
+.costs__title-talking{
+    margin-left: 46px;
+    margin-top: 2px;
+}
+
+.item__desc{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.partners{
+    margin-top: 3px;
+    margin-left: 1px;
+}
+.partners__list{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.list__item{
+    display: inline-block;
+    width: 30%;
+    margin-top: 29px;
+    margin-right: 20px;
+}
+
+.list__item-drop{
+    padding-right: 10px;
+}
+
+.list__item-tishkin{
+    margin-top: 59px;
+}
+
+.item__picture-avantage{
+    padding-left: 21px;    
+    margin-top: 30px;
+}
+
+.item__picture-poofok{
+margin-left: -6px;
+}
+
+.item__picture-anna{
+    margin-left: -19px;
+    margin-top: 6px;    
+}
