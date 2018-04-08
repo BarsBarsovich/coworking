@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/comments.css">
 </head>
 
 
@@ -39,7 +38,7 @@
         </div>
         <div class="maincontent">
             <div class="container clearfix">
-                <div class="maincontent__sidebar">
+                <div class="maincontent__sidebar-comments">
                     <ul class="maincontent__nav">
                         <li class="nav__item">
                             <a href="/" class="nav__link nav__link--main">Главная</a>
@@ -48,7 +47,7 @@
                             <a href="comments.html" class="nav__link nav__link--comments">Отзывы</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--costs">Тарифы</a>
+                            <a href="costs.html" class="nav__link nav__link--costs">Тарифы</a>
                         </li>
                     </ul>
                 </div>
@@ -63,163 +62,205 @@
                         </ul>
                     </div>
                     <div class="maincontent__commnets">
-                        <span class="news_caption">Отзывы</span>
-                        <div class="news__container">
-                            <ul class="news__list">
-                                <li class="news__item">
-                                    <div class="news__logo">
-                                        <img src="/img/comments/lazerboy.png" alt="" class="news__logo-picture">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__date">
-                                            12.10.2016
+                        <span class="comments__caption">Отзывы</span>
+                        <div class="comments__container">
+                            <ul class="comments__list">
+                                <li class="comments__item">
+                                    <div class="comments__container">
+                                        <div class="comments__logo">
+                                            <img src="/img/comments/lazerboy.png" alt="" class="comments__logo-picture">
                                         </div>
-                                        <h3 class="news__title">Олег Павлов</h3>
-                                        <p class="news__text">
-                                            Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется
-                                            чего то более вкусного, чтобы можно было угощать начальство.
-                                        </p>
+                                        <div class="comments__content">
+                                            <div class="comments__date">
+                                                12.10.2016
+                                            </div>
+                                            <h3 class="comments__title">Олег Павлов</h3>
+                                            <div class="comments__text">
+                                                Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим
+                                                <br>совещания директоров. Получается намного дешевле и удобно всем
+                                                <br>добираться. Единственное пожелание – расширить меню, потому что
+                                                <br>бизнес-ланчи – это все таки средний уровень, а хочется чего то более <br>вкусного, чтобы можно было угощать начальство.
+                                            </div>
+                                        </div>
+                                        <div class="breakline">
+                                            <hr class="breakline__element">
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="news__item">
-                                    <div class="news__logo">
-                                        <img src="/img/comments/hipster.png" alt="" class="news__logo-picture">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__date">
-                                            01.02.2016
+
+                                <li class="comments__item">
+                                    <div class="comments__container">
+                                        <div class="comments__logo">
+                                            <img src="/img/comments/hipster.png" alt="" class="comments__logo-picture">
                                         </div>
-                                        <h3 class="news__title">Эрнест Изиль</h3>
-                                        <p class="news__text">
-                                            Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота
-                                            и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!
-                                        </p>
+                                        <div class="comments__content">
+                                            <div class="comments__date">
+                                                01.02.2016
+                                            </div>
+                                            <h3 class="comments__title">Эрнест Изиль</h3>
+                                            <div class="comments__text">
+                                                Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота
+                                                и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!
+                                            </div>
+                                        </div>
+                                        <div class="breakline">
+                                            <hr class="breakline__element">
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="news__item">
-                                    <div class="news__logo">
-                                        <img src="/img/comments/no-logo.png" alt="" class="news__logo-picture">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__date">
-                                            22.12.2015
+
+                                <li class="comments__item">
+                                    <div class="comments__container">
+                                        <div class="comments__logo">
+                                            <img src="/img/comments/no-logo.png" alt="" class="comments__logo-picture">
                                         </div>
-                                        <h3 class="news__title">Елена Суругай</h3>
-                                        <p class="news__text">
-                                            Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить
-                                            время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)
-                                        </p>
+                                        <div class="comments__content">
+                                            <div class="comments__date">
+                                                22.12.2015
+                                            </div>
+                                            <h3 class="comments__title">Елена Сургай</h3>
+                                            <div class="comments__text">
+                                                Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить
+                                                время для творчества.
+                                                <br>Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)
+                                            </div>
+                                        </div>
+                                        <div class="breakline">
+                                            <hr class="breakline__element">
+                                        </div>
                                     </div>
                                 </li>
-                                <li class="news__item">
-                                    <div class="news__logo">
-                                        <img src="/img/comments/girl.png" alt="" class="news__logo-picture">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__date">
-                                            14.08.2015
+
+                                <li class="comments__item">
+                                    <div class="comments__container">
+                                        <div class="comments__logo">
+                                            <img src="/img/comments/girl.png" alt="" class="comments__logo-picture">
                                         </div>
-                                        <h3 class="news__title">Наталья Осадчая</h3>
-                                        <p class="news__text">
-                                            Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат
-                                            на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.
-                                        </p>
+                                        <div class="comments__content">
+                                            <div class="comments__date">
+                                                14.08.2015
+                                            </div>
+                                            <h3 class="comments__title">Наталья Осадчая</h3>
+                                            <div class="comments__text">
+                                                Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат
+                                                на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
+
                             </ul>
                         </div>
-                        <div class="pagination">
+                        <div class="pagination__comments">
                             <div class="total__pages">
                                 Страница 1 из 7
                             </div>
-                            <div class="pagination__pages">
-                                <ul class="pagination__list">
-                                    <li class="pagination__item pagination__item-border">
-                                        <a href="#" class="pagination__link">
-                                            <img src="/img/pagination/left-arrow.png" alt="" class="pagination__arrow">
-                                        </a>
-                                    </li>
-                                    <li class="pagination__item ">
-                                        <a href="#" class="pagination__link pagination__link-first">1</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">2</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">3</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">4</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">5</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">6</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">7</a>
-                                    </li>
-                                    <li class="pagination__item">
-                                        <a href="#" class="pagination__link">8</a>
-                                    </li>
-                                    <li class="pagination__item pagination__item-border">
-                                        <a href="#" class="pagination__link">
-                                            <img src="/img/pagination/right-arrow.png" alt="" class="pagination__arrow">
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="pagination__pages_comments">
+
+                                <div class="pagination__left-arrow">
+                                    <a href="">
+                                        <img src="/img/pagination/left-arrow.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="pagination__container">
+                                    <ul class="pagination__list">
+                                        <li class="pagination__item pagination__item-first">
+                                            <a href="#" class="pagination__link pagination__link-first-comments">1</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">2</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">3</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">4</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">5</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">6</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">7</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pagination__right-arrow">
+                                    <a href="">
+                                        <img src="/img/pagination/right-arrow.png" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="splitter">
-                <img src="/img/comments/warning.png" alt="" class="splitter__logo">
-            </div>
-        </div>
-        <div class="container">
-            <div class="form">
-                <div class="form__content">
-                    <form action="#">
-                        <span class="form__title">Оставить отзыв</span>
-                        <div class="row">
-                            <div class="form__name">
-                                <label>Ваше имя</label><br>
-                                <input type="text" placeholder="Андрей" class="form__input">
-                            </div>
-                            <div class="form__vk">
-                                <label>Ссылка на профиль VK</label><br>
-                                <input type="text" placeholder="vk.com/example" class="form__input">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <label>Текст отзыва</label><br>
-                            <textarea class="form__input form__textarea" placeholder="Мне понравилось"></textarea>
-                        </div>
-                        <div class="row">
-                            <div class="form__showphoto">
-                                <label>Отображать фото в отзыве?</label><br>
-                                <input type="radio" value="yes" class="form__radio" name="showphoto"><span class="radio__text">Да</span>
-                                <input type="radio" value="no" class="form__radio form__radio-margin" name="showphoto"><span class="radio__text">Нет</span>
-                            </div>
-                            <div class="form__submit">
-                                <input type="submit" value="Отправить" class="submit__btn">
-                            </div>
-                        </div>
-                    </form>
+                <div class="container">
+                    <div class="splitter__content">
+                        <span>
+                                Для наших новых клиентов мы предлагаем 
+                                <span class="splitter__sale">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="container">
-                <p class="footer__about">
-                    Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <a href="https://loftschool.com">LoftSchool</a>. <br> Автор работы: <a href="https://github.com/BarsBarsovich">Борис Дрябин</a>
-                </p>
-                <div class="footer__logo">
-                    <img src="/img/logo.png" alt="" class="footer__logo-picture">
+        <!-- <div class="container"> -->
+        <div class="form">
+            <div class="container form__content">
+                <div class="form__title">
+                    Оставить отзыв
                 </div>
-                <div class="footer__social">
+                <div class="row">
+                    <div class="form__name">
+                        <label>Ваше имя</label><br>
+                        <div class="input__container">
+                            <input type="text" id="name" placeholder="Андрей" class="name__input">
+                        </div>
+                    </div>
+                    <div class="form__vk">
+                        <label>Ссылка на профиль VK</label><br>
+                        <div class="input__container">
+                            <input type="text" id="name" placeholder="vk.com/example">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label>Тект отзыва</label><br>
+                    <textarea class="form__text"></textarea>
+                </div>
+                <div class="row">
+                    <div class="row__photo">
+                        <label>
+                                    Отображать фото в отзыве?
+                            </label><br>
+                        <div class="radio__container">
+                            <input type="radio" name="photo" value="yes"> Да
+                            <input type="radio" name="photo" value="no"> Нет
+                        </div>
+
+                    </div>
+                    <div class="form__submit">
+                        <input type="submit" value="Отправить" class="form__submit-button">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer footer__comments">
+            <div class="footer__container container">
+                <div class="footer__copyright footer__cpoyright_comment">
+                    <p>
+                        Сделано с любовью и старанием <br>на курсе «HTML + CSS» в <a href="https://loftschool.com">LoftSchool</a>. <br> Автор работы: <a href="https://github.com/BarsBarsovich">Борис Дрябин</a>
+                    </p>
+                </div>
+                <div class="footer__logo footer__logo_comments">
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <div class="footer__social footer__social-comments">
                     <p class="footer__title">Наши социальные сети</p>
                     <ul class="footer__social-icons li-no-style">
                         <li class="footer__item">
@@ -246,7 +287,7 @@
                 </div>
             </div>
         </div>
-    </div>
+        <!-- </div> -->
 </body>
 
 </html>

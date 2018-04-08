@@ -48,7 +48,7 @@
     background-repeat: no-repeat;
 }
 
-.nav__link--comments:hover {
+.nav__link--comments-fp:hover {
     filter: brightness(0%);
 }
 
@@ -58,5 +58,23 @@
 }
 
 .nav__link--costs:hover {
+    filter: brightness(0%);
+}
+
+.nav__link--main {
+    background-image: url("/img/aside/notactive/triangle.png");
+    /* filter: brightness(0%); */
+    background-repeat: no-repeat;
+    /* text-decoration: underline; */
+}
+
+.nav__link--main:hover {
+    filter: brightness(0%);
+}
+
+.nav__link--comments {
+    background-image: url("/img/aside/notactive/star.png");
+    background-repeat: no-repeat;
+    text-decoration: underline;
     filter: brightness(0%);
 }

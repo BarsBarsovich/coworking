@@ -1,0 +1,26 @@
+.breadcrumbs__list,
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__home {
+    color: #ec1e79;
+    font-family: "GothamPro-Italic";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumbs__item:after {
+    content: " /";
+}
+
+.breadcrumbs__item--noslash {
+    color: #221f1f;
+    font-family: "GothamPro-Italic";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumbs__item--noslash:after {
+    content: "";
+}

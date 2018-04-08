@@ -1,0 +1,81 @@
+.maincontent__sidebar-comments {
+    margin-top: -17px;
+    float: left;
+}
+
+.maincontent__content {
+    margin-left: 81px;
+}
+
+.comments__list,
+.comments__item {
+    display: inline-block;
+}
+
+.comments__logo,
+.comments__content {
+    display: inline-block;
+}
+
+.comments__content {
+    width: 78%;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.comments__caption {
+    font-family: "GothamPro-Bold";
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.comments__container {
+    vertical-align: middle;
+    margin-top: 13px;
+}
+
+.comments__logo-picture {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.comments__date {
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -4px;
+}
+
+.comments__title {
+    font-family: "GothamPro-Bold";
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.comments__text {
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: -9px;
+    font-size: 18px;
+    width: 103%;
+}
+
+.breakline {
+    margin-top: 22px;
+}
+
+.comments__list li:nth-child(2) {
+    margin-top: 11px;
+}
+
+.comments__list li:nth-child(3) {
+    margin-top: 10px;
+}
+
+.comments__list li:nth-child(4) {
+    margin-top: 10px;
+}

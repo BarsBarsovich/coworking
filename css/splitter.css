@@ -1,0 +1,21 @@
+.splitter {
+    background: url("/img/comments/warning.png") repeat-x;
+    height: 174px;
+}
+
+.splitter__content {
+    color: #fff;
+    margin: auto;
+    font-family: "GothamPro-Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 611px;
+    margin-top: 84px;
+    margin-left: 233px;
+    padding-top: 45px;
+}
+
+.splitter__sale {
+    color: #ec1e79;
+}

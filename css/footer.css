@@ -135,3 +135,19 @@
 .footer__link-mail:hover {
     background-position: 0 20px;
 }
+
+.footer__cpoyright_comment {
+    margin-top: 11px;
+}
+
+.footer__logo_comments {
+    padding-top: 31px;
+}
+
+.footer__social-comments {
+    margin-top: 18px
+}
+
+.footer__comments {
+    margin-top: 67px;
+}

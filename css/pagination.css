@@ -67,6 +67,26 @@
     margin-left: 2px;
 }
 
+.pagination__comments {
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: -62px;
+    margin-top: 15px;
+}
+
+.pagination__pages_comments {
+    margin-left: 22px;
+    display: inline-block;
+}
+
+.pagination__link-first-comments {
+    color: #ec1e79;
+    text-align: center;
+    display: inline-block;
+    padding-top: 4px;
+}
+
 
 /*
 .pagination__pages li {
