@@ -78,3 +78,18 @@
     text-decoration: underline;
     filter: brightness(0%);
 }
+
+.nav__link--costs-active {
+    background-image: url("/img/aside/notactive/wallet.png");
+    background-repeat: no-repeat;
+    text-decoration: underline;
+    filter: brightness(0%);
+    color: #000;
+}
+
+.nav__link--costs {
+    background-image: url("/img/aside/notactive/star.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+    /* filter: brightness(0%); */
+}
