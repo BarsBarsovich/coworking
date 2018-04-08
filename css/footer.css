@@ -1,0 +1,137 @@
+.footer {
+    margin-top: 51px;
+}
+
+.footer__copyright,
+.footer__logo,
+.footer__social,
+.social__list,
+.social__item {
+    display: inline-block;
+}
+
+.footer__copyright {
+    font-family: "GothamPro-Light";
+    color: #fff;
+    font-size: 14px;
+    padding-left: 19px;
+    vertical-align: top;
+    margin-top: 2px;
+    line-height: 18px;
+}
+
+.footer__copyright a {
+    color: #fff;
+}
+
+.footer__about {
+    font-family: "GothamPro-Light";
+    color: #fff;
+    font-size: 14px;
+    padding-left: 19px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.footer__about a {
+    color: #fff;
+}
+
+.footer__social {
+    display: inline-block;
+    float: right;
+    margin-top: 9px;
+    padding-right: 21px;
+}
+
+.footer__social-icons {
+    display: inline-block;
+    padding: 0;
+    /* margin: 0; */
+    margin-top: -5px;
+}
+
+.footer__item {
+    display: inline-block;
+}
+
+.footer__logo {
+    margin-left: 209px;
+    padding-top: 20px;
+}
+
+.footer__title {
+    color: #ffffff;
+    font-family: "GothamPro-Bold";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer__item {
+    padding-right: 6px;
+}
+
+.footer__link-vk {
+    background-image: url("/img/footer/vk_sprite.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px auto;
+    background-position: 0 0;
+}
+
+.footer__link-vk:hover {
+    background-position: 0 20px;
+}
+
+.footer__link-fb {
+    background-image: url("/img/footer/fb_sprite.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px auto;
+    background-position: 0 0;
+}
+
+.footer__link-fb:hover {
+    background-position: 0 20px;
+}
+
+.footer__link-google {
+    background-image: url("/img/footer/googleplus_sprite.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px auto;
+    background-position: 0 0;
+}
+
+.footer__link-google:hover {
+    background-position: 0 20px;
+}
+
+.footer__link-tw {
+    background-image: url("/img/footer/tw_sprite.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px auto;
+    background-position: 0 0;
+}
+
+.footer__link-tw:hover {
+    background-position: 0 20px;
+}
+
+.footer__link-mail {
+    background-image: url("/img/footer/mail_sprite.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: 20px auto;
+    background-position: 0 0;
+}
+
+.footer__link-mail:hover {
+    background-position: 0 20px;
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.banner,
+.footer {
+    width: 100%;
+    background: #27273e;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.banner_content {
+    width: 1100px;
+    /* width: 100%; */
+    margin: auto;
+}
+
+.maincontent__sidebar,
+.maincontent__content {
+    float: left;
+}
+
+.maincontent__sidebar {
+    width: 20%;
+}
+
+.maincontent__content {
+    width: 80%;
+    margin-top: 25px;
+    margin-left: -18px;
+}
+
+.maincontent__nav {
+    margin-top: 61px;
+    margin-left: 19px;
+    /* position: absolute; */
+}

@@ -1,0 +1,36 @@
+.dropdown__workdays {
+    color: #b12167;
+    font-family: 'GothamPro-Bold';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.dropdown__content {
+    display: inline-block;
+    text-align: left;
+    padding-top: 24px;
+    padding-right: 28px;
+}
+
+.dropdown__dinner {
+    font-family: 'GothamPro-Bold';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dropdown__hidden {
+    position: absolute;
+    background: url("/img/dropdown.png") no-repeat;
+    min-height: 163px;
+    min-width: 179px;
+    margin-top: 8px;
+    margin-left: 35px;
+    display: none;
+}
+
+.contacts {
+    display: inline-block;
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 21px;
+}
