@@ -82,7 +82,7 @@
     outline: none !important;
 }
 
-.form__submit-button:hover{
+.form__submit-button:hover {
     cursor: pointer;
     background: #ed3888;
     /* outline: none !important; */
@@ -96,4 +96,49 @@
 .form__submit {
     display: inline-block;
     margin-left: 214px;
+}
+
+.radio {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    position: relative;
+}
+
+.radio-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio:checked+.radio-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: rgb(236, 30, 121);
+    border: 2x solid rgb(236, 30, 121);
+    border-radius: 2px;
+}
+
+.radio-custom,
+.radio:checked+.radio-custom::before {
+    border-radius: 50%;
+}
+
+.radio__container {
+    padding-top: 12px;
+    margin-right: 2px;
+}
+
+.form__second-label {
+    margin-left: 7px;
 }
