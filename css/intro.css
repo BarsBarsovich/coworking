@@ -43,9 +43,10 @@ body {
     font-family: "GothamPro-Bold";
     font-size: 12px;
     font-weight: 700;
+    outline: none;
 }
 
-.intro__btn:hover {
+.intro__btn-container:hover .intro__btn {
     color: rgb(255, 255, 255);
     background-color: rgb(236, 30, 121);
 }
