@@ -144,6 +144,16 @@ margin-left: -42px;
     margin-top: 59px;
 }
 
+.item__picture{
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.item__picture:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
 .item__picture-avantage{
     padding-left: 21px;    
     margin-top: 30px;

@@ -11,6 +11,10 @@
     margin-left: -13px;
 }
 
+.feature__item:hover .item__logo-picture{
+    transform: scale(1.2);
+}
+
 .features {
     margin-top: -6px;
     margin-left: -3px;
@@ -36,10 +40,6 @@
     margin-left: 20px;
     height: 27px;
     width: 27px;
-}
-
-.item__logo:hover {
-    transform: scale(1.2);
 }
 
 .item__title {

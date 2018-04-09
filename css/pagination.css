@@ -28,6 +28,14 @@
     font-weight: 700;
 }
 
+/* .pagination__item:hover{
+    color:#ec1e79;
+} */
+
+.pagination__link:hover{
+    color:#ec1e79;
+}
+
 .pagination__item-first {
     background: #27273e;
     margin-left: -10px;
