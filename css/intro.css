@@ -6,7 +6,7 @@ body {
 
 .intro {
     position: relative;
-    background: url('./img/intro/1.png') center center no-repeat;
+    background: url('../intro/1.png') center center no-repeat;
     background-size: cover;
     overflow: hidden;
     width: 100%;

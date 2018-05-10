@@ -36,14 +36,14 @@
 }
 
 .nav__link--main-fp {
-    background-image: url("./img/aside/notactive/triangle.png");
+    background-image: url("../img/aside/notactive/triangle.png");
     filter: brightness(0%);
     background-repeat: no-repeat;
     text-decoration: underline;
 }
 
 .nav__link--comments-fp {
-    background-image: url("./img/aside/notactive/star.png");
+    background-image: url("../img/aside/notactive/star.png");
     background-repeat: no-repeat;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .nav__link--costs {
-    background-image: url("./img/aside/notactive/wallet.png");
+    background-image: url("../img/aside/notactive/wallet.png");
     background-repeat: no-repeat;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .nav__link--main {
-    background-image: url("./img/aside/notactive/triangle.png");    
+    background-image: url("../img/aside/notactive/triangle.png");    
     background-repeat: no-repeat;    
 }
 
@@ -70,14 +70,14 @@
 }
 
 .nav__link--comments {
-    background-image: url("./img/aside/notactive/star.png");
+    background-image: url("../img/aside/notactive/star.png");
     background-repeat: no-repeat;
     text-decoration: underline;
     filter: brightness(0%);
 }
 
 .nav__link--costs-active {
-    background-image: url("./img/aside/notactive/wallet.png");
+    background-image: url("../img/aside/notactive/wallet.png");
     background-repeat: no-repeat;
     text-decoration: underline;
     filter: brightness(0%);
@@ -85,7 +85,7 @@
 }
 
 .nav__link--costs-cost {
-    background-image: url("./img/aside/notactive/star.png");
+    background-image: url("../img/aside/notactive/star.png");
     background-repeat: no-repeat;
     text-decoration: none;
 }

@@ -20,7 +20,7 @@
 
 .dropdown__hidden {
     position: absolute;
-    background: url("./img/dropdown.png") no-repeat;
+    background: url("../img/dropdown.png") no-repeat;
     min-height: 163px;
     min-width: 179px;
     margin-top: 8px;
